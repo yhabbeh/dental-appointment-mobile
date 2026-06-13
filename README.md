@@ -67,8 +67,8 @@ DentalConnect is a comprehensive Flutter-based mobile application designed to st
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yhabbeh/dental-appointment-mobile.git
+   ```bash 
+   git clone https://github.com/yhabbeh/dental-appointment.git
    cd dental
    ```
 
@@ -123,15 +123,40 @@ Localization files are located in `assets/l10n/`:
 2. Configure signing in Xcode
 3. Build release IPA
 4. Upload to App Store Connect
- 
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📞 Support 
+## 📞 Support
+
 For support and questions:
 - **Email**: yousef.habbeh@hotmail.com 
-- **Issues**: [GitHub Issues](https://github.com/yhabbeh/dental-appointment-mobile/issues)
+- **Issues**: [GitHub Issues](https://github.com/yhabbeh/dental-appointment/issues)
 
- ## contact us to get trial app 
+## 🔄 Version History
+
+### v1.0.0 (Current)
+- Initial release
+- Authentication system
+- Profile management
+- Multi-language support
+
+### Upcoming Features
+- Push notifications
+- Advanced analytics
+- Patient management
+- Appointment scheduling
+- Payment integration
+
+---
+
 **Built with ❤️ using Flutter & Firebase**
