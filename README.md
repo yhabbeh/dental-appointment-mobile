@@ -8,8 +8,7 @@
 [![Local Database](https://img.shields.io/badge/Local%20DB-Drift%20(SQLite)-4CAF50?style=for-the-badge&logo=sqlite)](https://drift.simonbinder.eu)
 [![Firebase](https://img.shields.io/badge/Backend-Firebase-FFCA28?style=for-the-badge&logo=firebase)](https://firebase.google.com)
 [![Security Tests](https://img.shields.io/badge/Security%20Tests-81%20Assertions%20Passing-brightgreen?style=for-the-badge&logo=shield)](tests/security_rules/README.md)
-[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-300%2B%20Passing-success?style=for-the-badge&logo=flutter)](test/)
-[![Web Admin](https://img.shields.io/badge/Admin%20Portal-Live%20Hosted-00C853?style=for-the-badge&logo=google-chrome)](https://dental-94235.web.app)
+[![Unit Tests](https://img.shields.io/badge/Unit%20Tests-300%2B%20Passing-success?style=for-the-badge&logo=flutter)](test/) 
 [![License](https://img.shields.io/badge/License-Proprietary-blueviolet?style=for-the-badge)](#-license--maintainer)
 
 **An Enterprise-Grade Dental Practice Management Platform & Multi-Tenant Scheduling System**
@@ -50,8 +49,8 @@ The platform relies on a **Local-First (Offline-First)** architecture built with
 - **Optimistic UI Badging**:
   - Real-time cloud sync badges rendered directly on `AppointmentCard` (synced, pending cloud upload, or collision alert).
 - **Comprehensive Offline Documentation**:
-  - [Offline-First Architecture Plan](docs/OFFLINE_FIRST_ARCHITECTURE_PLAN.md): Detailed RFC and technical specification.
-  - [Offline-First Study Guide](docs/OFFLINE_FIRST_STUDY_GUIDE.md): 3-week implementation curriculum and developer roadmap.
+  - Offline-First Architecture Plan: Detailed RFC and technical specification.
+  - Offline-First Study Guide: 3-week implementation curriculum and developer roadmap.
 
 ### 🎓 Interactive Guided Tutorials & Clinic Onboarding Guidance System
 - **Step-by-Step Guided Tours**: Multi-step interactive walkthroughs (`lib/features/tutorials/`) designed to rapidly onboard doctors and clinic receptionists.
@@ -111,7 +110,7 @@ The platform relies on a **Local-First (Offline-First)** architecture built with
 - **Web-Optimized Entry Point**: Modular architecture running on `lib/main_admin.dart` and `lib/main_admin_dev.dart`.
 - **Clean URLs**: Configured with `usePathUrlStrategy` for path-based browser URLs without `#` hash fragments.
 - **System Administration**: Admin controls for registering clinics, managing tier-based subscription plans, broadcasting announcements, and auditing actions.
-- **Live Hosting**: Deployed to production Firebase Hosting ([https://dental-94235.web.app](https://dental-94235.web.app)) via streamlined shell scripts.
+
 
 ---
 
@@ -373,9 +372,7 @@ Deploy the Web Admin Portal directly to production Firebase Hosting using the au
 ```bash
 flutter build web -t lib/main_admin.dart --output build/web_admin
 firebase deploy --only hosting
-```
-
-🔗 **Live Production Admin Portal**: [https://dental-94235.web.app](https://dental-94235.web.app)
+``` 
 
 ---
 
@@ -402,7 +399,6 @@ Directly tests production `firestore.rules` against the local Firebase Firestore
 # Method 2: Using the npm runner
 npm run test:security
 ```
-*See [Firestore Security Rules Guide](tests/security_rules/README.md) for detailed suite documentation.*
 
 ### 3. Static Code Analysis & Formatting
 ```bash
@@ -435,5 +431,5 @@ This software is developed and maintained for internal dental practice operation
 
 * **Maintainer**: Yousef Habbeh
 * **Contact**: [yousef.habbeh@hotmail.com](mailto:yousef.habbeh@hotmail.com)
-* **GitHub Repository**: [yhabbeh/dental-appointment](https://github.com/yhabbeh/dental-appointment)
+
 
